@@ -24,5 +24,27 @@ namespace PetShop.Pages
         {
             InitializeComponent();
         }
+
+        private void LoginButton_Click(object sender, RoutedEventArgs e)
+        {
+        StringBuilder errors = new StringBuilder();
+            if (String.IsNullOrEmpty(loginBox.Text))
+            {
+                errors.AppendLine("Введите логин");
+            }
+            if (String.IsNullOrEmpty(PasswordBox.Password))
+            {
+                errors.AppendLine("Введите пароль");
+            }
+            if (errors.Length > 0)
+            {
+                MessageBox.Show(errors.ToString(), "Ошибка!", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+            if(Data.TradesEntities.GetContext().User.Any(d => d.UserLogin == loginBox.Text && d.UserPassword == PasswordBox.Password))
+            {
+
+            }
+        }
     }
 }

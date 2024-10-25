@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="81cead4724ac4b2cba673e972b22d0c4" Name="Diagram1">
+        <EntityTypeShape EntityType="TradesModel.Category" Width="1.5" PointX="0.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradesModel.City" Width="1.5" PointX="1.5" PointY="24.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradesModel.Indexes" Width="1.5" PointX="1.5" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradesModel.Manufacture" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradesModel.Order" Width="1.5" PointX="3" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradesModel.OrderProduct" Width="1.5" PointX="5.25" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradesModel.PickPoint" Width="1.5" PointX="0.75" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradesModel.Product" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradesModel.ProductName" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradesModel.Role" Width="1.5" PointX="1.5" PointY="35.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradesModel.StatusOrder" Width="1.5" PointX="0.75" PointY="21.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradesModel.Street" Width="1.5" PointX="1.5" PointY="29.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradesModel.Supplier" Width="1.5" PointX="0.75" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradesModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradesModel.Units" Width="1.5" PointX="0.75" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradesModel.User" Width="1.5" PointX="0.75" PointY="31.75" IsExpanded="true" />
+        <AssociationConnector Association="TradesModel.FK_Product_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="TradesModel.FK_PickPoint_City" ManuallyRouted="false" />
+        <AssociationConnector Association="TradesModel.FK_PickPoint_Indexes" ManuallyRouted="false" />
+        <AssociationConnector Association="TradesModel.FK_Product_Manufacture" ManuallyRouted="false" />
+        <AssociationConnector Association="TradesModel.FK_Order_PickPoint" ManuallyRouted="false" />
+        <AssociationConnector Association="TradesModel.FK_Order_StatusOrder" ManuallyRouted="false" />
+        <AssociationConnector Association="TradesModel.FK_Order_User" ManuallyRouted="false" />
+        <AssociationConnector Association="TradesModel.FK_OrderProduct_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="TradesModel.FK_OrderProduct_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="TradesModel.FK_PickPoint_Street" ManuallyRouted="false" />
+        <AssociationConnector Association="TradesModel.FK_Product_ProductName" ManuallyRouted="false" />
+        <AssociationConnector Association="TradesModel.FK_Product_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="TradesModel.FK_Product_Units" ManuallyRouted="false" />
+        <AssociationConnector Association="TradesModel.FK_User_Role" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
