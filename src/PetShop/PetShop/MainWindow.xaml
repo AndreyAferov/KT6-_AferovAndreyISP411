@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PetShop"
         mc:Ignorable="d"
-        Title="ИС - товары для животных" Height="650" Width="1000">
+        Title="ИС - товары для животных" Height="650" Width="1000"
+        MinHeight="650"
+        MinWidth="1000" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="70"></RowDefinition>

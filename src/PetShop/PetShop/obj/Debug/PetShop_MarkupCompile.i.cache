@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Андрей\Desktop\KT6\src\PetShop\PetShop\App.xaml
-3715390957
+6-516048047
 2367394133
-281736144131
+311237118435
 18406850743
-MainWindow.xaml;Pages\LoginPage.xaml;Pages\ViewPage.xaml;
+MainWindow.xaml;Pages\AddEditPage.xaml;Pages\AdminLk.xaml;Pages\LoginPage.xaml;Pages\ViewPage.xaml;Pages\ViewProduct.xaml;
 
 True
 

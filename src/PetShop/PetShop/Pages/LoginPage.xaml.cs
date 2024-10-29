@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PetShop.Classes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -43,8 +44,31 @@ namespace PetShop.Pages
             }
             if(Data.TradesEntities.GetContext().User.Any(d => d.UserLogin == loginBox.Text && d.UserPassword == PasswordBox.Password))
             {
+                var user = Data.TradesEntities.GetContext().User
+                                       .FirstOrDefault(d => d.UserLogin == loginBox.Text && d.UserPassword == PasswordBox.Password);
 
+                Manager.CurrentUser = user;
+
+                switch (user.Role.RoleName)
+                {
+                    case "Администратор":
+                        Manager.MainFrame.Navigate(new AdminLk());
+                        break;
+                    case "Клиент":
+                        Manager.MainFrame.Navigate(new ViewProduct());
+                        break;
+                    case "Менеджер":
+                        Manager.MainFrame.Navigate(new ViewProduct());
+                        break;
+                }
+
+                MessageBox.Show("Успех", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
             }
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new ViewPage());
         }
     }
 }
