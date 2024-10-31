@@ -16,12 +16,9 @@
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="50"></RowDefinition>
         </Grid.RowDefinitions>
-        <Label x:Name="FIOLabel" HorizontalAlignment="Right"
-        Margin="0,0,10,0" Content="ФИО"
-        VerticalAlignment="Center" Grid.Row="0"></Label>
         <Label x:Name="CountOfLabel" HorizontalAlignment="Left"
-Margin="10,0,0,0" Content="15/30"
-VerticalAlignment="Center" Grid.Row="0"></Label>
+            Margin="10,0,0,0" Content="15/30"
+            VerticalAlignment="Center" Grid.Row="0"></Label>
         <Grid Grid.Row="1">
             <TextBox x:Name="SearchTextBox" Width="150"
               HorizontalAlignment="Left" Margin="10,10,10,10"

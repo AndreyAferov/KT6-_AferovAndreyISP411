@@ -52,7 +52,7 @@ namespace PetShop.Pages
                 switch (user.Role.RoleName)
                 {
                     case "Администратор":
-                        Manager.MainFrame.Navigate(new AdminLk());
+                        Manager.MainFrame.Navigate(new LkAdmin());
                         break;
                     case "Клиент":
                         Manager.MainFrame.Navigate(new ViewProduct());

@@ -28,7 +28,7 @@
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
 
-        <Label Content="Id" Grid.Row="0" HorizontalAlignment="Center"></Label>
+        <Label Content="Id" x:Name="IdLabel" Grid.Row="0" HorizontalAlignment="Center"></Label>
         <Label Content="Наименование" Grid.Row="1" HorizontalAlignment="Center"></Label>
         <Label Content="Категория" Grid.Row="2" HorizontalAlignment="Center"></Label>
         <Label Content="Количество на складе" Grid.Row="3" HorizontalAlignment="Center"></Label>
@@ -37,19 +37,31 @@
 
         <Label Content="Стоимость за единицу" Grid.Column="2" Grid.Row="0" HorizontalAlignment="Center"></Label>
         <Label Content="Изобраение" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center"></Label>
-        <Label Content="Подробное описание" Grid.Column="2" Grid.Row="2" HorizontalAlignment="Center"></Label>
+        <Label Content="Подробное описание" Grid.Column="2" Grid.Row="3" HorizontalAlignment="Center"></Label>
 
 
-        <TextBox Grid.Column="1" Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
+        <Image x:Name="ProductImage" Margin="10"
+                   Grid.Row="1" Grid.Column="3" Grid.RowSpan="2"
+                   MouseDown="ProductImage_MouseDown" VerticalAlignment="Top" HorizontalAlignment="Left">
+            <Image.Source>
+                <Binding Path ="ProductPhote">
+                    <Binding.TargetNullValue>
+                        <BitmapImage UriSource="/Resources/picture.png"/>
+                    </Binding.TargetNullValue>
+                </Binding>
+            </Image.Source>
+        </Image>
+        <TextBox x:Name="IdTextBox" Grid.Column="1" Grid.Row="0" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
+        <TextBox x:Name="NameTextBox" Grid.Column="1" Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
         <ComboBox x:Name="CategoryCombo" DisplayMemberPath="Category1" Grid.Column="1" Grid.Row="2" VerticalAlignment="Top" HorizontalAlignment="Left"></ComboBox>
-        <TextBox Grid.Column="1" Grid.Row="3" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
-        <TextBox Grid.Column="1" Grid.Row="4" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
-        <TextBox Grid.Column="1" Grid.Row="5" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
-        <TextBox Grid.Column="3" Grid.Row="0" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
-        <TextBox Grid.Column="3" Grid.Row="2" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
+        <TextBox x:Name="CountTextBox" Grid.Column="1" Grid.Row="3" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
+        <TextBox x:Name="UnitTextBox" Grid.Column="1" Grid.Row="4" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
+        <TextBox x:Name="SupplierTextBox" Grid.Column="1" Grid.Row="5" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
+        <TextBox x:Name="CostTextBox" Grid.Column="3" Grid.Row="0" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
+        <TextBox x:Name="DescriptionTextBox"  VerticalScrollBarVisibility="Visible" TextWrapping="Wrap" AcceptsReturn="True" Grid.Column="3" Grid.Row="3" Grid.RowSpan="2" VerticalAlignment="Top" HorizontalAlignment="Left" Height="118" Width="190"></TextBox>
 
         <Button x:Name="BackButton" Content="Назад" Click="BackButton_Click" Grid.Row="6"></Button>
-        <Button x:Name="AddButton" Content="Добавить" Click="AddButton_Click" Grid.Column="3" Grid.Row="6"></Button>
+        <Button x:Name="AddButton" Content="Добавить" Click="SaveButton_Click" Grid.Column="3" Grid.Row="6"></Button>
 
     </Grid>
 </Page>

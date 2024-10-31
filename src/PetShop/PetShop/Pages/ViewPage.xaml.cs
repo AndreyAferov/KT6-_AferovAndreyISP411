@@ -36,19 +36,6 @@ namespace PetShop.Pages
             manufactList.Insert(0, new Data.Manufacture { Name = "Все производители" });
             ManufacturerComboBox.ItemsSource = manufactList;
             ManufacturerComboBox.SelectedIndex = 0;
-
-            if (Manager.CurrentUser != null)
-            {
-                FIOLabel.Visibility = Visibility.Visible;
-                FIOLabel.Content = $"{Manager.CurrentUser.UserSurname} " +
-                    $"{Manager.CurrentUser.UserName} " +
-                    $"{Manager.CurrentUser.UserPatronymic}";
-            }
-            else
-            {
-                FIOLabel.Visibility = Visibility.Hidden;
-
-            }
             CountOfLabel.Content = $"{Data.TradesEntities.GetContext().Product.Count()}/" +
                 $"{Data.TradesEntities.GetContext().Product.Count()}";
         }

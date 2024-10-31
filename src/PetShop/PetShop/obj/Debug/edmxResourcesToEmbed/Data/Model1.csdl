@@ -77,10 +77,10 @@
     <Key>
       <PropertyRef Name="Id" />
     </Key>
-    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="IdUnits" Type="Int32" Nullable="false" />
     <Property Name="IdProductName" Type="Int32" Nullable="false" />
-    <Property Name="IdSupplier" Type="Int32" Nullable="false" />
+    <Property Name="IdSupplier" Type="Int32" />
     <Property Name="IdCategory" Type="Int32" Nullable="false" />
     <Property Name="Article" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="ProductDiscription" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" Nullable="false" />
@@ -303,7 +303,7 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_Product_Supplier">
-    <End Role="Supplier" Type="Self.Supplier" Multiplicity="1" />
+    <End Role="Supplier" Type="Self.Supplier" Multiplicity="0..1" />
     <End Role="Product" Type="Self.Product" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Supplier">

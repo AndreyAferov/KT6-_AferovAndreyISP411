@@ -17,11 +17,11 @@ using System.Windows.Shapes;
 namespace PetShop.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для AdminLk.xaml
+    /// Логика взаимодействия для LkAdmin.xaml
     /// </summary>
-    public partial class AdminLk : Page
+    public partial class LkAdmin : Page
     {
-        public AdminLk()
+        public LkAdmin()
         {
             InitializeComponent();
 
@@ -29,6 +29,7 @@ namespace PetShop.Pages
 
             Init();
         }
+
         public void Init()
         {
             ProductListView.ItemsSource = Data.TradesEntities.GetContext().Product.ToList();
@@ -78,7 +79,6 @@ namespace PetShop.Pages
                 if (selected != null && selected.Name != "Все производители")
                 {
                     _currentProduct = _currentProduct.Where(d => d.IdManufacturer == selected.Id).ToList();
-
                 }
                 CountOfLabel.Content = $"{_currentProduct.Count}/{Data.TradesEntities.GetContext().Product.Count()}";
                 ProductListView.ItemsSource = _currentProduct;
@@ -113,9 +113,52 @@ namespace PetShop.Pages
         {
             Manager.MainFrame.Navigate(new LoginPage());
         }
+        private void EditButton_Click(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new AddEditPage((sender as Button).DataContext as Data.Product));
+        }
         private void AddButton_Click(object sender, RoutedEventArgs e)
         {
-            Manager.MainFrame.Navigate(new AddEditPage());
+            Manager.MainFrame.Navigate(new AddEditPage(null));
+        }
+
+        private void DeleteButton_Click(object sender, RoutedEventArgs e)
+        {
+            var productToDelete = (sender as Button).DataContext as Data.Product;
+
+            if (productToDelete == null)
+            {
+                MessageBox.Show("Продукт не выбран.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+
+            var isProductOrdered = Data.TradesEntities.GetContext().OrderProduct
+                .Any(orderItem => orderItem.ID == productToDelete.Id);
+
+            if (isProductOrdered)
+            {
+                MessageBox.Show("Невозможно удалить продукт, так как он уже был заказан.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+            var result = MessageBox.Show($"Вы уверены, что хотите удалить продукт '{productToDelete.ProductName.Name}'?", "Подтверждение", MessageBoxButton.YesNo, MessageBoxImage.Warning);
+
+            if (result == MessageBoxResult.Yes)
+            {
+                try
+                {
+                    Data.TradesEntities.GetContext().Product.Remove(productToDelete);
+                    Data.TradesEntities.GetContext().SaveChanges();
+
+                    MessageBox.Show("Продукт успешно удалён!", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
+
+                    Update();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Ошибка при удалении продукта: {ex.Message}", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+            }
         }
     }
 }
+

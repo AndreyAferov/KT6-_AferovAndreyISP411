@@ -63,10 +63,10 @@
     <Key>
       <PropertyRef Name="Id" />
     </Key>
-    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="IdUnits" Type="int" Nullable="false" />
     <Property Name="IdProductName" Type="int" Nullable="false" />
-    <Property Name="IdSupplier" Type="int" Nullable="false" />
+    <Property Name="IdSupplier" Type="int" />
     <Property Name="IdCategory" Type="int" Nullable="false" />
     <Property Name="Article" Type="nvarchar" MaxLength="50" />
     <Property Name="ProductDiscription" Type="nvarchar" MaxLength="1000" Nullable="false" />
@@ -275,7 +275,7 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_Product_Supplier">
-    <End Role="Supplier" Type="Self.Supplier" Multiplicity="1" />
+    <End Role="Supplier" Type="Self.Supplier" Multiplicity="0..1" />
     <End Role="Product" Type="Self.Product" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Supplier">

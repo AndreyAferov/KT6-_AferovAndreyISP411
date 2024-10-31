@@ -23,7 +23,7 @@ namespace PetShop.Data
         public int Id { get; set; }
         public int IdUnits { get; set; }
         public int IdProductName { get; set; }
-        public int IdSupplier { get; set; }
+        public Nullable<int> IdSupplier { get; set; }
         public int IdCategory { get; set; }
         public string Article { get; set; }
         public string ProductDiscription { get; set; }
