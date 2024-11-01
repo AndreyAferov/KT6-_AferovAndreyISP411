@@ -112,6 +112,7 @@ namespace PetShop.Pages
         private void BackButon_Click(object sender, RoutedEventArgs e)
         {
             Manager.MainFrame.Navigate(new LoginPage());
+            Manager.CurrentUser = null;
         }
         private void EditButton_Click(object sender, RoutedEventArgs e)
         {

@@ -90,7 +90,7 @@ VerticalAlignment="Center" Grid.Row="0"></Label>
          StringFormat={}Цена: {0}}" ></TextBlock>
                         </StackPanel>
                         <TextBlock Grid.Column="2" Text="{Binding ProductQuantityInStock,
-            StringFormat={}Наличие на складе:{0}}"
+            StringFormat={}Наличие на складе: {0}}"
                    VerticalAlignment="center" HorizontalAlignment="Center"></TextBlock>
                        
                         <Button x:Name="EditButton" Content="Редактировать"

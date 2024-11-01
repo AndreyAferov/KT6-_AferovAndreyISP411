@@ -75,7 +75,7 @@ namespace PetShop.Pages
                     CostTextBox.Text = _currentproduct.ProductCost.ToString();
                     SupplierTextBox.Text = _currentproduct.Manufacture.Name;
                     DescriptionTextBox.Text = _currentproduct.ProductDiscription;
-                    IdTextBox.Text = Data.TradesEntities.GetContext().Product.Max(d => d.Id + 1).ToString();
+                    IdTextBox.Text = _currentproduct.Id.ToString();
                     CategoryCombo.SelectedItem = Data.TradesEntities.GetContext().Category.Where(d => d.Id == _currentproduct.IdCategory).FirstOrDefault();
                     if (_currentproduct.ProductPhote != null)
                     {
@@ -233,12 +233,14 @@ namespace PetShop.Pages
                     Data.TradesEntities.GetContext().Product.Add(_currentproduct);
                     Data.TradesEntities.GetContext().SaveChanges();
                     MessageBox.Show("Успешно добавлено", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
+                    Manager.MainFrame.Navigate(new LkAdmin());
                 }
 
                 else if (FlagAddorEdit == "edit")
                 {
                     Data.TradesEntities.GetContext().SaveChanges();
                     MessageBox.Show("Успешно добавлено", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
+                    Manager.MainFrame.Navigate(new LkAdmin());
                 }
             }
 

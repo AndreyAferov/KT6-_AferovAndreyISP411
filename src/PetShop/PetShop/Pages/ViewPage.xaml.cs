@@ -38,6 +38,20 @@ namespace PetShop.Pages
             ManufacturerComboBox.SelectedIndex = 0;
             CountOfLabel.Content = $"{Data.TradesEntities.GetContext().Product.Count()}/" +
                 $"{Data.TradesEntities.GetContext().Product.Count()}";
+            if (Manager.CurrentUser != null)
+            {
+                FIOLabel.Visibility = Visibility.Visible;
+                FIOLabel.Content = $"{Manager.CurrentUser.UserSurname} " +
+                    $"{Manager.CurrentUser.UserName} " +
+                    $"{Manager.CurrentUser.UserPatronymic}";
+            }
+            else
+            {
+                FIOLabel.Visibility = Visibility.Hidden;
+
+            }
+            CountOfLabel.Content = $"{Data.TradesEntities.GetContext().Product.Count()}/" +
+                $"{Data.TradesEntities.GetContext().Product.Count()}";
         }
 
         public List<Data.Product> _currentProduct = Data.TradesEntities.GetContext().Product.ToList();
@@ -98,7 +112,9 @@ namespace PetShop.Pages
 
         private void BackButon_Click(object sender, RoutedEventArgs e)
         {
+            Manager.CurrentUser = null;
             Manager.MainFrame.Navigate(new LoginPage());
+            
         }
     }
 }

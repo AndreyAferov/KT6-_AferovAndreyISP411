@@ -51,7 +51,7 @@
                 </Binding>
             </Image.Source>
         </Image>
-        <TextBox x:Name="IdTextBox" Grid.Column="1" Grid.Row="0" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
+        <TextBox IsEnabled="False" x:Name="IdTextBox" Grid.Column="1" Grid.Row="0" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
         <TextBox x:Name="NameTextBox" Grid.Column="1" Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>
         <ComboBox x:Name="CategoryCombo" DisplayMemberPath="Category1" Grid.Column="1" Grid.Row="2" VerticalAlignment="Top" HorizontalAlignment="Left"></ComboBox>
         <TextBox x:Name="CountTextBox" Grid.Column="1" Grid.Row="3" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBox>

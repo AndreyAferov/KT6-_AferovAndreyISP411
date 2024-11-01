@@ -16,6 +16,9 @@
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="50"></RowDefinition>
         </Grid.RowDefinitions>
+        <Label x:Name="FIOLabel" HorizontalAlignment="Right"
+        Margin="0,0,10,0" Content="ФИО"
+        VerticalAlignment="Center" Grid.Row="0"></Label>
         <Label x:Name="CountOfLabel" HorizontalAlignment="Left"
             Margin="10,0,0,0" Content="15/30"
             VerticalAlignment="Center" Grid.Row="0"></Label>
@@ -86,7 +89,7 @@
          StringFormat={}Цена: {0}}" ></TextBlock>
                         </StackPanel>
                         <TextBlock Grid.Column="2" Text="{Binding ProductQuantityInStock,
-            StringFormat={}Наличие на складе:{0}}"
+            StringFormat={}Наличие на складе: {0}}"
                    VerticalAlignment="center" HorizontalAlignment="Center"></TextBlock>
                     </Grid>
 

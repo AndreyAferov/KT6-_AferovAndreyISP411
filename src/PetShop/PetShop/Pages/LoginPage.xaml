@@ -15,6 +15,8 @@
             <TextBox x:Name="loginBox"></TextBox>
             <Label Content="Пароль:"></Label>
             <PasswordBox x:Name="PasswordBox"></PasswordBox>
+            <Canvas x:Name="CaptchaCanvas" Width="120" Height="40" Margin="10" Visibility="Collapsed"/>
+            <TextBox x:Name="CaptchaTextBox" Width="100" Height="30" Margin="10" Visibility="Collapsed"/>
             <Button x:Name="LoginButton" Click="LoginButton_Click" Margin="10"  Content="Войти" ></Button>
             <Button Content="Гость" Click="Button_Click" Margin="10"></Button>
         </StackPanel>
