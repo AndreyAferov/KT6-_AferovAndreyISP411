@@ -3,52 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\petshop\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|solutionrelative:petshop\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\petshop\\pages\\viewpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|solutionrelative:petshop\\pages\\viewpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\petshop\\pages\\viewpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|solutionrelative:petshop\\pages\\viewpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\desktop\\kt6\\src\\petshop\\petshop\\classes\\captha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|solutionrelative:petshop\\classes\\captha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\petshop\\classes\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|solutionrelative:petshop\\classes\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\petshop\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|solutionrelative:petshop\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\petshop\\pages\\lkadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|solutionrelative:petshop\\pages\\lkadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\petshop\\pages\\lkadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|solutionrelative:petshop\\pages\\lkadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\petshop\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|solutionrelative:petshop\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\petshop\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|solutionrelative:petshop\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\petshop\\pages\\addeditpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|solutionrelative:petshop\\pages\\addeditpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\desktop\\kt6\\src\\petshop\\petshop\\pages\\viewpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|solutionrelative:petshop\\pages\\viewpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\petshop\\pages\\viewpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|solutionrelative:petshop\\pages\\viewpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\petshop\\pages\\lkadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|solutionrelative:petshop\\pages\\lkadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\petshop\\classes\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|solutionrelative:petshop\\classes\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\petshop\\classes\\captha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|solutionrelative:petshop\\classes\\captha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\petshop\\pages\\addeditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|solutionrelative:petshop\\pages\\addeditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\petshop\\pages\\lkadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|solutionrelative:petshop\\pages\\lkadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\petshop\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|solutionrelative:petshop\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\petshop\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|solutionrelative:petshop\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\petshop\\pages\\addeditpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D43DCB68-63D7-4130-83D1-56C4AE84F11C}|PetShop\\PetShop.csproj|solutionrelative:petshop\\pages\\addeditpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,91 +74,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Captha.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\PetShop\\Classes\\Captha.cs",
-              "RelativeDocumentMoniker": "PetShop\\Classes\\Captha.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\PetShop\\Classes\\Captha.cs",
-              "RelativeToolTip": "PetShop\\Classes\\Captha.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T10:32:22.76Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ViewPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\PetShop\\Pages\\ViewPage.xaml.cs",
               "RelativeDocumentMoniker": "PetShop\\Pages\\ViewPage.xaml.cs",
               "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\PetShop\\Pages\\ViewPage.xaml.cs",
               "RelativeToolTip": "PetShop\\Pages\\ViewPage.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAMAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAqwCYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T10:11:32.235Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ViewPage.xaml",
               "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\PetShop\\Pages\\ViewPage.xaml",
               "RelativeDocumentMoniker": "PetShop\\Pages\\ViewPage.xaml",
               "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\PetShop\\Pages\\ViewPage.xaml",
               "RelativeToolTip": "PetShop\\Pages\\ViewPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-01T10:11:28.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T10:11:28.399Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "LoginPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\PetShop\\Pages\\LoginPage.xaml.cs",
               "RelativeDocumentMoniker": "PetShop\\Pages\\LoginPage.xaml.cs",
               "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\PetShop\\Pages\\LoginPage.xaml.cs",
               "RelativeToolTip": "PetShop\\Pages\\LoginPage.xaml.cs",
-              "ViewState": "AQIAAFoAAAAAAAAAAAAYwGwAAAAxAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAwDQAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T10:11:24.478Z"
+              "WhenOpened": "2024-11-01T10:11:24.478Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LkAdmin.xaml",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\PetShop\\Pages\\LkAdmin.xaml",
-              "RelativeDocumentMoniker": "PetShop\\Pages\\LkAdmin.xaml",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\PetShop\\Pages\\LkAdmin.xaml",
-              "RelativeToolTip": "PetShop\\Pages\\LkAdmin.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-01T10:11:08.495Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AddEditPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\PetShop\\Pages\\AddEditPage.xaml.cs",
-              "RelativeDocumentMoniker": "PetShop\\Pages\\AddEditPage.xaml.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\PetShop\\Pages\\AddEditPage.xaml.cs",
-              "RelativeToolTip": "PetShop\\Pages\\AddEditPage.xaml.cs",
-              "ViewState": "AQIAABQBAAAAAAAAAAAowPwAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T08:23:32.36Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AddEditPage.xaml",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\PetShop\\Pages\\AddEditPage.xaml",
-              "RelativeDocumentMoniker": "PetShop\\Pages\\AddEditPage.xaml",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\PetShop\\Pages\\AddEditPage.xaml",
-              "RelativeToolTip": "PetShop\\Pages\\AddEditPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-29T08:00:19.385Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\PetShop\\App.xaml",
               "RelativeDocumentMoniker": "PetShop\\App.xaml",
@@ -170,31 +123,89 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Manager.cs",
               "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\PetShop\\Classes\\Manager.cs",
               "RelativeDocumentMoniker": "PetShop\\Classes\\Manager.cs",
               "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\PetShop\\Classes\\Manager.cs",
               "RelativeToolTip": "PetShop\\Classes\\Manager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T11:09:33.917Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\PetShop\\Pages\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "PetShop\\Pages\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\PetShop\\Pages\\LoginPage.xaml",
+              "RelativeToolTip": "PetShop\\Pages\\LoginPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-25T10:09:38.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Captha.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\PetShop\\Classes\\Captha.cs",
+              "RelativeDocumentMoniker": "PetShop\\Classes\\Captha.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\PetShop\\Classes\\Captha.cs",
+              "RelativeToolTip": "PetShop\\Classes\\Captha.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAgwEYAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T10:32:22.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "LkAdmin.xaml.cs",
               "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\PetShop\\Pages\\LkAdmin.xaml.cs",
               "RelativeDocumentMoniker": "PetShop\\Pages\\LkAdmin.xaml.cs",
               "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\PetShop\\Pages\\LkAdmin.xaml.cs",
               "RelativeToolTip": "PetShop\\Pages\\LkAdmin.xaml.cs",
-              "ViewState": "AQIAAGUAAAAAAAAAAAA9wHIAAAAnAAAA",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAswHYAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-31T10:25:32.69Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddEditPage.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\PetShop\\Pages\\AddEditPage.xaml",
+              "RelativeDocumentMoniker": "PetShop\\Pages\\AddEditPage.xaml",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\PetShop\\Pages\\AddEditPage.xaml",
+              "RelativeToolTip": "PetShop\\Pages\\AddEditPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-29T08:00:19.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddEditPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\PetShop\\Pages\\AddEditPage.xaml.cs",
+              "RelativeDocumentMoniker": "PetShop\\Pages\\AddEditPage.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\PetShop\\Pages\\AddEditPage.xaml.cs",
+              "RelativeToolTip": "PetShop\\Pages\\AddEditPage.xaml.cs",
+              "ViewState": "AQIAABQBAAAAAAAAAAAowPwAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T08:23:32.36Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "LkAdmin.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\PetShop\\Pages\\LkAdmin.xaml",
+              "RelativeDocumentMoniker": "PetShop\\Pages\\LkAdmin.xaml",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\PetShop\\Pages\\LkAdmin.xaml",
+              "RelativeToolTip": "PetShop\\Pages\\LkAdmin.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-01T10:11:08.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\PetShop\\App.xaml.cs",
               "RelativeDocumentMoniker": "PetShop\\App.xaml.cs",
@@ -203,17 +214,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T10:12:01.626Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LoginPage.xaml",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\PetShop\\Pages\\LoginPage.xaml",
-              "RelativeDocumentMoniker": "PetShop\\Pages\\LoginPage.xaml",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\KT6\\src\\PetShop\\PetShop\\Pages\\LoginPage.xaml",
-              "RelativeToolTip": "PetShop\\Pages\\LoginPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-25T10:09:38.098Z"
             }
           ]
         }
